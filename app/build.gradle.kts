@@ -33,10 +33,18 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+    buildFeatures {
+        viewBinding = true
+    }
 }
 
 dependencies {
-
+    // Retrofit
+    val retrofitVersion = "2.11.0"
+    implementation("com.squareup.retrofit2:retrofit:$retrofitVersion") //Retrofit
+    implementation("com.squareup.retrofit2:converter-gson:$retrofitVersion") //Converter
+    // Picasso
+    implementation("com.squareup.picasso:picasso:2.8")
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)

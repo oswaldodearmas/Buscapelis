@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">Busca Pelis</string>
+    <string name="movie_list">Movie List</string>
+    <string name="search_hint">Search by movie name</string>
+    <string name="menu_search">Search by movie title</string>
+    <string name="back_from_detail">Back to movie list</string>
+    <string name="movie_poster">Movie poster</string>
+    <string name="activity_detail_title_textView">Your Movie</string>
+    <string name="movie_basic_data">Movie Info</string>
+    <string name="movie_title">Title:</string>
+    <string name="movie_year">Year:</string>
+    <string name="movie_runtime">Runtime:</string>
+    <string name="movie_director">Director:</string>
+    <string name="movie_genre">Genre:</string>
+    <string name="movie_country">Country:</string>
+    <string name="item_peli_default_text">NO Movie FOUND. \n TRY AGAIN</string>
+    <string name="movie_plot">Movie Plot</string>
 </resources>
